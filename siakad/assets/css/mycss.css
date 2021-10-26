@@ -1,0 +1,59 @@
+/*
+	MY CSS 
+*/
+
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+body{
+	font-family: 'Poppins', sans-serif;
+}
+.nav-link {
+	font-size: 20px;
+
+}
+.nav-link:hover{
+	background-color: #A9A9A9;
+	color: white;
+	width: max-content;
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+.jumbotron{
+	height: 70vmax;
+	margin-top: -50px;
+	background-image: url(../img/main-bg.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+.jumbotron .container{
+	text-align: center;
+	margin-top: 20em;
+	color:orange;
+	font-weight: 700;
+	
+}
+.jumbotron .container:hover{
+
+	width: max-content;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+/*
+=======LOGIN STYLE===
+
+*/
+form{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.btn-login{
+	width: 100%;
+	margin-top: 20px;
+}

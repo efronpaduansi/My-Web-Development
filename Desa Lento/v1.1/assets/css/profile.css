@@ -1,0 +1,27 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;800&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+#profile-home {
+  background-image: url(../img/img-bg01.jpg);
+  height: 30vmax;
+  opacity: 0.8;
+  /* Membuat Parallax */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#profile-about {
+  margin-bottom: 15rem;
+}
+#profile-contact {
+  background-color: #000b76;
+  color: white;
+  font-weight: 400;
+  margin-top: -15rem;
+  padding-top: 5em;
+  padding-bottom: 5em;
+}

@@ -1,0 +1,86 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;800&display=swap");
+
+/* Styles */
+body {
+  font-family: "Montserrat", sans-serif;
+}
+section {
+  padding-top: 75px;
+}
+.navbar-brand {
+  font-weight: 500;
+}
+.navbar-nav {
+  font-weight: 400;
+}
+#home {
+  background-image: url(../img/img-bg01.jpg);
+  height: 68vmax;
+  opacity: 0.8;
+  /* Membuat Parallax */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.jumbotron {
+  color: white;
+  text-align: center;
+  padding-top: 5em;
+}
+.lead {
+  font-weight: 500;
+}
+#login-register {
+  text-transform: capitalize;
+  font-weight: 600;
+}
+#layanan {
+  background-image: url(../img/img03.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-weight: 500;
+}
+#berita-desa {
+  margin-top: -3em;
+  padding-top: 5em;
+  padding-bottom: 5em;
+  background-color: #a2d9ff;
+}
+#contact {
+  background-color: #000b76;
+  color: white;
+  font-weight: 400;
+  margin-top: -10em;
+  padding-top: 5em;
+  padding-bottom: 1em;
+}
+#struktur-desa {
+  background-color: whitesmoke;
+}
+#back-to-top {
+  margin-top: -2.5rem;
+}
+
+/* Only fron Mobile */
+@media (min-width: 576px) {
+  #card {
+    padding: 5rem 5rem;
+  }
+}
+/* Desktop Version */
+@media (min-width: 992px) {
+  #home {
+    padding-top: 10em;
+    height: 48vmax;
+  }
+  .navbar-nav {
+    text-transform: uppercase;
+  }
+  #card:hover {
+    transform: translateY(-15px);
+  }
+}

@@ -1,0 +1,82 @@
+/* =====MY CSS==== */
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;700;900&family=Raleway:ital,wght@0,100;0,200;0,400;1,100;1,200&display=swap');
+
+/* Stylesheet */
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    font-family: 'Raleway', sans-serif;
+}
+hr{
+    width: 65px;
+    border: 2px solid #8E0505;
+}
+.navbar{
+    background: #8E0505 !important;
+}
+.navbar-brand{
+    color: white;
+    font-size: 45px;
+    padding-left: 30px;
+    font-weight: 500;
+
+}
+.nav-link{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+/* ===JUMBOTRON=== */
+.jumbotron{
+    height: 45vmax;
+}
+.jumbotron .display-4{
+    margin-top: 4em;
+   
+}
+.jumbotron .display-4 span{
+    color: #8E0505;
+}
+/* ===ABOUT==== */
+#about{
+    margin-top: -3em;
+    height: 60vmax;
+}
+
+/* ===TUTOR=== */
+#tutor{
+    height: 46vmax;
+    background: #E9ECEF;
+}
+#tutor .display-4{
+    padding-top: 1em;
+}
+#tutor .foot-tag{
+    color: #8E0505;
+    padding-top: 290px;
+}
+/* ===Responsive=== */
+/* max-width : 992px adalah Navbar akan melebar jika di ukuran device 992px keatas atau versi pc/laptop */
+@media screen and (max-width: 992px){
+    .jumbotron{
+        height: 90vmax; 
+        padding-bottom: 4em; 
+    }
+    .jumbotron .display-4{
+        margin-top: 2em; 
+    }
+    #about{
+        margin-top: -3em;
+        height: 110vmax;
+    }
+    #tutor{
+        height: 110vmax;
+    }
+    #tutor .foot-tag{
+        color: #8E0505;
+        padding-top: 290px;
+    }
+}
